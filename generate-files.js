@@ -15,7 +15,7 @@ const createDirectoriesAndFiles = () => {
     fs.mkdirSync(baseDir, { recursive: true });
   }
 
-  generateFiles(baseDir, 3000);
+  generateFiles(baseDir, 9000);
 };
 
 createDirectoriesAndFiles();
